@@ -31,9 +31,9 @@ plt.title('Predicting Avengers4 Audience')
 plt.xlabel('Avengers Series', labelpad=1)
 plt.ylabel('Attendance(UBD)')
 
-plt.plot([1, 4], [attendance_in_UBD[0], expected_audiences])
+plt.plot([1, 4], [attendance_in_UBD[0], expected_audiences], color="r")
 plt.xticks([1, 2, 3, 4])
-plt.scatter(avengers_series, attendance_in_UBD, color="r")
-plt.scatter(4, expected_audiences, color="r")
+plt.scatter(avengers_series, attendance_in_UBD, color="b")
+plt.scatter(4, expected_audiences, color="b")
 
 plt.show()
