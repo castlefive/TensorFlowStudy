@@ -28,7 +28,7 @@ expected_audiences = float((W.numpy()) * 4 + float(b.numpy()))
 print('어벤져스4 예상 관객 수(UBD):', math.floor(expected_audiences))
 
 plt.title('Predicting Avengers4 Audience')
-plt.xlabel('Avengers Series', labelpad=1)
+plt.xlabel('Avengers Series')
 plt.ylabel('Attendance(UBD)')
 
 plt.plot([1, 4], [attendance_in_UBD[0], expected_audiences], color="r")
