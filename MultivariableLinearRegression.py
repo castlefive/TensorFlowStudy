@@ -33,11 +33,11 @@ while int(cost) > 14:
     W.assign_sub(learnging_rate * W_grad)
     b.assign_sub(learnging_rate * b_grad)
 
-expecting_data = np.array([
+avengers4_data = np.array([
     [214., 44., 66.]
 ], dtype=np.float32)
 
-X = expecting_data[:, :]
+X = avengers4_data[:, :]
 
 print('Cost:', cost.numpy())
 print('어벤져스4 예상 관객 수(UBD):', math.floor(predict(X)))
