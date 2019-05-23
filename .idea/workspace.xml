@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23563e8c-5ddf-43cd-94a1-e9539568a495" name="Default Changelist" comment="">
+    <list default="true" id="23563e8c-5ddf-43cd-94a1-e9539568a495" name="Default Changelist" comment="변수명 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultivariableLinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/MultivariableLinearRegression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SimpleLinearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="495">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MultivariableLinearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="630">
+              <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="52" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -70,10 +69,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1920" />
-    <option name="y" value="-321" />
-    <option name="width" value="873" />
+    <option name="y" value="-344" />
+    <option name="width" value="1920" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -135,7 +134,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MultivariableLinearRegression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Regression/MultivariableLinearRegression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +155,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SimpleLinearRegression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Regression/SimpleLinearRegression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,14 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557984075388</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="변수명 변경">
+      <created>1558055395937</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558055395937</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-321" width="873" height="1057" extended-state="0" />
+    <frame x="-1920" y="-344" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.31220657" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.17482886" />
       <window_info id="Structure" order="1" sideWeight="0.50086355" side_tool="true" weight="0.1864139" />
       <window_info id="Favorites" order="2" sideWeight="0.50086355" side_tool="true" weight="0.1864139" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -251,7 +257,8 @@
     <MESSAGE value="파일 네이밍 오타 변경 및 그래프 색상 변경" />
     <MESSAGE value="필요없는 labelpad 제거" />
     <MESSAGE value="다변수 선형 회귀 코드 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="다변수 선형 회귀 코드 추가" />
+    <MESSAGE value="변수명 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="변수명 변경" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -340,8 +347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SimpleLinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="495">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -350,8 +357,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MultivariableLinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="630">
+          <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="52" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
